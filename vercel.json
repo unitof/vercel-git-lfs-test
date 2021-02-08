@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "(.+)\\.(jpg)",
-      "destination": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/$1.$2"
+      "destination": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/hat.jpg"
     }
   ],
   "github": {

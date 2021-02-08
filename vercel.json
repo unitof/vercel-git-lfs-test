@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "(?<filepath>.+)\\.(?<ext>jpg)",
+      "src": "/(?<filepath>.+)\\.(?<ext>jpg)",
       "dest": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/$filepath.$ext"
     }
   ],

@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "(.+)\\.(jpg)",
+      "source": "/(.+)\\.(jpg)",
       "destination": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/hat.jpg"
     }
   ],

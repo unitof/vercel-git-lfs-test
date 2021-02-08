@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "src": "(?<filepath>.+)\\.(?<ext>jpg)",
-      "dest": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/$filepath.$ext"
+      "source": "/:filepath\\.:ext",
+      "destination": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/$filepath.$ext"
     }
   ],
   "github": {

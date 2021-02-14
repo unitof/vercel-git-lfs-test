@@ -3,10 +3,7 @@
   "routes": [
     {
       "src": "/(?<filepath>.+)\\.(?<ext>jpg)",
-      "dest": "/api/lfs-proxy",
-      "headers": {
-        "Cache-Control": "s-maxage=3600"
-      }
+      "dest": "/api/lfs-proxy"
     }
   ],
   "github": {

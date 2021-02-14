@@ -5,7 +5,8 @@
       "src": "/(?<filepath>.+)\\.(?<ext>jpg)",
       "dest": "https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/$filepath.$ext",
       "headers": {
-        "Cache-Control": "s-maxage=3600"
+        "Cache-Control": "s-maxage=3600",
+        "X-JacobFord-Test": "hello-world"
       }
     }
   ],

@@ -1,0 +1,22 @@
+{
+  "name": "vercel-git-lfs-test",
+  "version": "1.0.0",
+  "description": "Testing out GitHub's LFS assets CDN with Vercel deployments, using embarassing photos of myself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unitof/vercel-git-lfs-test.git"
+  },
+  "author": "Jacob Ford <j@cobford.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unitof/vercel-git-lfs-test/issues"
+  },
+  "homepage": "https://github.com/unitof/vercel-git-lfs-test#readme",
+  "dependencies": {
+    "http-proxy-middleware": "^1.0.6"
+  }
+}

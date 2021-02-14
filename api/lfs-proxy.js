@@ -9,6 +9,7 @@ const lfsProxy = createProxyMiddleware({
 })
 
 module.exports = (req, res) => {
+  res.setHeader('Cache-Control', 'max-age=0, s-maxage=600, stale-while-revalidate')
   lfsProxy(req, res, (result) => {
     if (result instanceof Error) {
       throw result

@@ -4,7 +4,8 @@ const lfsProxy = createProxyMiddleware({
   target: 'https://media.githubusercontent.com/media/unitof/vercel-git-lfs-test/main/',
   pathRewrite: {
     '^/api/lfs-proxy': ''
-  }
+  },
+  changeOrigin: true
 })
 
 module.exports = (req, res) => {
